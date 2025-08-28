@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import { GrAddCircle } from 'react-icons/gr';
 import Navbar from '../Components/Navbar';
+import Banner from '../Components/Banner';
 
 const News = () => {
    const News=[
@@ -24,8 +25,12 @@ const News = () => {
   return (
    
     <div>
-      <Navbar/>
-        <h1 className="text-center text-6xl text-fuchsia-900 font-bold">News Products</h1>
+      <nav>
+        <Navbar/>
+      </nav>
+      <main>
+          <Banner/>
+          <h1 className="text-center text-6xl text-fuchsia-900 font-bold">News Products</h1>
       <ul className="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4  gap sm:gap-5 md:gap-5 lg:gap-5 ">
         {
           News.map((news,index)=>(
@@ -39,6 +44,8 @@ const News = () => {
           )
         }
       </ul>
+      </main>
+      
     </div>
   )
 }
