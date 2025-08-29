@@ -9,7 +9,7 @@ const Footer = () => {
     <div className="w-full max-w-screen-xl mx-auto p-4 md:py-8">
         <div className="sm:flex sm:items-center sm:justify-between">
             <a href="#" className="flex items-center mb-4 sm:mb-0 space-x-3 rtl:space-x-reverse">
-                <img src="https://png.pngtree.com/png-clipart/20250222/original/pngtree-a-steaming-coffee-cup-icon-png-image_20494333.png" className="h-8" alt="Flowbite Logo" />
+                <img src="https://i.ytimg.com/vi/STUZLRKV06A/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLDW6brGgeIBGT1lXBDIEy-oMDCBYw" className="h-8" alt="Flowbite Logo" />
                 <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">365Shops</span>
             </a>
             <ul className="flex flex-wrap items-center mb-6 text-sm font-medium text-gray-500 sm:mb-0 dark:text-gray-400">
